@@ -41,10 +41,10 @@ HOST=aarch64-unknown-linux-gnu BUILD=aarch64-unknown-linux-gnu make "$@" -C ./de
 
 #BUILD CCLIB
 
-WD=$PWD
-cd src/cc
-echo $PWD
-./makerogue
-cd $WD
+#WD=$PWD
+#cd src/cc
+#echo $PWD
+#./makerogue
+#cd $WD
 
 make "$@" V=1
